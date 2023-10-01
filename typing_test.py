@@ -36,7 +36,7 @@ def load_text():
         return random.choice(lines).strip() #"strip()" gets rid of any leading or trailing whitespace
 
 
-# def typing_accuracy(current_text,target_text):
+def typing_accuracy(current_text,target_text):
     total_characters = min(len(current_text),len(target_text))    #calculate errors in text
 
     if total_characters == 0:
